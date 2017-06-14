@@ -6,7 +6,7 @@ A tiny image running [alpine](https://github.com/gliderlabs/docker-alpine) Linux
 ## Usage
 
 	docker run --restart=always -d \
-		-p 0.0.0.0:80:80 \
+		-p 0.0.0.0:8888:8888 \
 		--hostname=privatebin \
 		--name=privatebin \
 		-v /<host_data_directory>:/privatebin/data \
